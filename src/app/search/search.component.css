@@ -1,0 +1,22 @@
+.search-title {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .search-title img {
+    margin-right: 10px; 
+  }
+  
+  .search-title h1 {
+    margin: 0; /* Remove default margin on the paragraph */
+    text-align: center; /* Center text within its container */
+  }
+  .items{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .a-item{
+    margin: 5px;
+  }

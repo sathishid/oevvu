@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the start horizontally */
+    justify-content: space-between; /* Distribute space evenly between items vertically */
+  }
+
+  .version {
+    order: 1; /* Set the order to 1 to move it to the top */
+  }
+
+  .copyright {
+    text-align: center;
+    order: 2; /* Set the order to 2 to move it to the center */
+  }
+
+  .developedBy {
+    display: flex;
+    align-items: center; /* Vertically center items within this container */
+    justify-content: flex-end; /* Align items to the end horizontally */
+    order: 3; /* Set the order to 3 to move it to the bottom */
+  }
+
+  .developedBy a {
+    display: flex;
+    align-items: center; /* Vertically center items within the link */
+    color: white;
+  }
+
+  .developedBy img {
+    margin-right: 5px; /* Add a margin for spacing between image and text */
+    vertical-align: middle; /* Align the image vertically middle within the line */
+  }

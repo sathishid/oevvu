@@ -1,0 +1,22 @@
+<mat-card>
+  <mat-card-content>
+    <div class="search-title">
+      <img src="assets/om.png" width="50" height="50" alt="Vector Icon" />
+
+      <h1>ஆன்ம சுத்தம்</h1>
+    </div>
+  </mat-card-content>
+</mat-card>
+<div class="items">
+  <div *ngFor="let item of jsonData" class="a-item">
+    <youtube-player
+      [videoId]="item.id"
+      suggestedQuality="medium"
+      [height]="150"
+      [width]="210"
+      [startSeconds]="43"
+      [endSeconds]="60"
+    >
+    </youtube-player>
+  </div>
+</div>
